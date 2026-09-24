@@ -23,9 +23,9 @@ python3 -m http.server 4173 --directory dist
 
 ## GitHub Pages
 
-Исходники хранятся в [utromaya-code/kailas-inner-journey](https://github.com/utromaya-code/kailas-inner-journey), ветка `main`. Страница публикуется из корня ветки `gh-pages`: её содержимое соответствует каталогу `dist` плюс пустой файл `.nojekyll`. Все ссылки на стили и фотографии относительные, поэтому сайт работает по адресу [utromaya-code.github.io/kailas-inner-journey](https://utromaya-code.github.io/kailas-inner-journey/).
+Исходники хранятся в [utromaya-code/kailas-inner-journey](https://github.com/utromaya-code/kailas-inner-journey), ветка `main`. Страница публикуется из корня ветки `gh-pages`: её содержимое соответствует каталогу `dist` плюс пустой файл `.nojekyll`. Все ссылки на стили и фотографии относительные. В настройках Pages указан собственный домен `tibet2027.ru`; временный адрес — [utromaya-code.github.io/kailas-inner-journey](https://utromaya-code.github.io/kailas-inner-journey/).
 
-Для будущих изменений сначала обновите `dist` в `main`, затем перенесите его содержимое в корень `gh-pages` и отправьте обе ветки на GitHub. Собственный домен подключается отдельно после уточнения его точного имени и DNS-провайдера. Секретов и ключей в исходниках нет.
+Для будущих изменений сначала обновите `dist` в `main`, затем перенесите его содержимое, включая `CNAME`, в корень `gh-pages` и отправьте обе ветки на GitHub. В REG.RU для `@` нужны четыре A-записи GitHub Pages (`185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`), а для `www` — CNAME на `utromaya-code.github.io`. Секретов и ключей в исходниках нет.
 
 ## Перед открытием продаж
 
