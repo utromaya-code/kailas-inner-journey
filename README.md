@@ -7,7 +7,7 @@
 - `dist/index.html` — весь контент страницы и программа по дням.
 - `dist/styles.css` — оформление, адаптация к телефону и большому экрану.
 - `dist/script.js` — раскрытие и сворачивание программы.
-- `dist/assets/` — фотографии, предоставленные организатором, портреты Леонида с Neuro-Universe, Ксении с Eversummit Club и Андрея из его ранее опубликованной программы.
+- `dist/assets/` — фотографии, предоставленные организатором, включая горный портрет Леонида; фото Ксении с Eversummit Club и Андрея из его ранее опубликованной программы.
 
 Сайт статический: не требует сборки, базы данных и серверного приложения. Контактные кнопки открывают `https://t.me/vsemaya`. Шрифт Golos Text загружается из Google Fonts; при отсутствии сети используется системный шрифт.
 
@@ -23,9 +23,9 @@ python3 -m http.server 4173 --directory dist
 
 ## GitHub Pages
 
-Исходники хранятся в [utromaya-code/kailas-inner-journey](https://github.com/utromaya-code/kailas-inner-journey), ветка `main`. Страница публикуется из корня ветки `gh-pages`: её содержимое соответствует каталогу `dist` плюс пустой файл `.nojekyll`. Все ссылки на стили и фотографии относительные. В настройках Pages указан собственный домен `tibet2027.ru`; адрес `utromaya-code.github.io/kailas-inner-journey` перенаправляет на него.
+Исходники хранятся в [utromaya-code/kailas-inner-journey](https://github.com/utromaya-code/kailas-inner-journey), ветка `main`. Страница публикуется из корня ветки `gh-pages`: её содержимое соответствует каталогу `dist` плюс пустой файл `.nojekyll`. Все ссылки на стили и фотографии относительные. В настройках Pages указан собственный домен `tibet2027.ru`; адрес `utromaya-code.github.io/kailas-inner-journey` перенаправляет на него. Пока домен распространяется в DNS, отдельная публичная копия без `CNAME` доступна на [GitHub Pages preview](https://utromaya-code.github.io/kailas-inner-journey-preview/); её исходники — в репозитории `utromaya-code/kailas-inner-journey-preview`.
 
-Для будущих изменений сначала обновите `dist` в `main`, затем перенесите его содержимое, включая `CNAME`, в корень `gh-pages` и отправьте обе ветки на GitHub. В REG.RU для `@` нужны четыре A-записи GitHub Pages (`185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`), а для `www` — CNAME на `utromaya-code.github.io`. Секретов и ключей в исходниках нет.
+Для будущих изменений сначала обновите `dist` в `main`, затем перенесите его содержимое, включая `CNAME`, в корень `gh-pages` и отправьте обе ветки на GitHub. Для синхронизации ссылки предварительного просмотра перенесите тот же `dist` в `main` репозитория `kailas-inner-journey-preview`, исключив `CNAME`. В REG.RU для `@` нужны четыре A-записи GitHub Pages (`185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`), а для `www` — CNAME на `utromaya-code.github.io`. Секретов и ключей в исходниках нет.
 
 ## Перед открытием продаж
 
@@ -45,7 +45,7 @@ python3 -m http.server 4173 --directory dist
 
 Публичные биографии и культурные описания:
 
-- https://neuro-universe.ru/pranayamas#author (биография Леонида и портрет)
+- https://neuro-universe.ru/pranayamas#author (биография Леонида)
 - https://eversummit.ru/merapeak
 - https://eversummit.ru/razdelnaya (портрет Ксении)
 - https://whc.unesco.org/en/list/707
