@@ -100,3 +100,54 @@
 .sanctuaries{padding-bottom:78px}
 .gallery{padding-top:88px}
 @media(max-width:600px){.sanctuaries{padding-bottom:58px}.gallery{padding-top:65px}}
+
+/* Sunlit editorial edition: keep the mountain and sky bright while grounding copy. */
+.hero{background:#1d3851}
+.hero-media .hero-photo{object-position:22% 49%;filter:contrast(1.045) saturate(1.075)}
+.hero-shade{background:linear-gradient(180deg,rgba(8,24,43,.42),transparent 22%),linear-gradient(0deg,rgba(8,20,28,.87),rgba(8,20,28,.47) 29%,transparent 65%)}
+.site-header{background:linear-gradient(180deg,rgba(8,24,43,.16),transparent)}
+.intro-copy>p:not(.lead){max-width:540px}
+.place>p{max-width:350px}
+.sacred-more{margin-top:28px;border-top:1px solid #bda793;border-bottom:1px solid #bda793}
+.sacred-more>summary{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:24px 8px;list-style:none;cursor:pointer;font-size:16px;font-weight:600;letter-spacing:.015em;color:var(--wine)}
+.sacred-more>summary span{font-size:25px;line-height:1;transition:transform .2s}
+.sacred-more[open]>summary span{transform:rotate(45deg)}
+.sacred-more .sacred-stories{margin:0 0 25px}
+.sanctuaries{background:#f6f2e9}
+.gallery{background:#182129;color:#fff}
+.gallery .section-heading>p{color:#e5ddd4}
+.gallery h2 em{color:#f3c768}
+.gallery .section-label{color:#e9c075}
+.gallery img{filter:contrast(1.055) saturate(1.055)}
+.gallery-extra{grid-template-columns:repeat(2,minmax(0,1fr))}
+.gallery-extra figure,.gallery-extra figure:nth-child(4),.gallery-extra figure:nth-child(5),.gallery-extra figure:nth-child(6){height:280px}
+.gallery-wide img{object-position:center 45%}
+.flight-timeline{min-width:0;align-self:start;border-top:1px solid #ffffff62}
+.flight-timeline>summary{display:flex;justify-content:space-between;align-items:center;gap:16px;list-style:none;cursor:pointer;padding:15px 0;color:#fff;font-size:15px;font-weight:600}
+.flight-timeline>summary span{font-size:24px;line-height:1;color:var(--yellow);transition:transform .2s}
+.flight-timeline[open]>summary span{transform:rotate(45deg)}
+.flight-timeline .flight-days{margin-top:9px}
+.flight-timeline .flight-note{grid-column:auto;margin-top:20px}
+.guide{background:#f6f1e9;border:1px solid #e2d9cd}
+@media(max-width:700px){
+ .gallery-grid{grid-template-columns:1fr 1fr;grid-template-rows:230px 210px 180px}
+ .gallery-wide{grid-column:1/-1;grid-row:1}
+ .gallery-tall{grid-column:1;grid-row:2/4}
+ .gallery-grid figure:nth-child(3){grid-column:2;grid-row:2}
+ .gallery-grid figure:nth-child(4){grid-column:2;grid-row:3}
+ .gallery-extra figure{height:175px}
+ .flight-timeline{margin-top:25px}
+}
+@media(max-width:600px){
+ .hero-media .hero-photo{object-position:center 50%}
+ .hero-shade{background:linear-gradient(180deg,rgba(8,24,43,.36),transparent 23%),linear-gradient(0deg,rgba(8,20,28,.91),rgba(8,20,28,.56) 38%,transparent 74%)}
+ .place-image{aspect-ratio:1.55}
+ .sacred-more>summary{font-size:15px}
+ .gallery-grid{grid-template-rows:205px 190px 165px}
+ .gallery-extra{gap:10px}
+ .gallery-extra figure{height:150px}
+}
+@media(max-width:380px){
+ .hero-inner{margin-bottom:116px}
+ .hero-caption{font-size:10px;line-height:1.5;letter-spacing:.045em}
+}
