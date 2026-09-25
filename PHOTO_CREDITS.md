@@ -2,11 +2,11 @@
 
 Для этих изображений использованы фотографии Wikimedia Commons. Они применены на публичном сайте с указанием автора, исходной страницы и лицензии. Размеры и формат изображений уменьшены; вёрстка может обрезать фото и слегка менять цвет/контраст при отображении. Производные файлы предоставляются на условиях исходных лицензий.
 
-Солнечный первый экран (`hero-sunlit-desktop.webp`) подготовлен из снимка, предоставленного организатором. Вертикальная версия для телефона (`hero-sunlit-mobile.webp`) создана цифровым расширением исходного кадра. Этот кадр не представлен как документальная фотография самого Кайласа; фотография его северной стороны из Wikimedia Commons находится в галерее.
+Солнечный первый экран (`hero-sunlit-desktop.webp`) подготовлен из снимка, предоставленного организатором. Вертикальная версия для телефона (`hero-sunlit-mobile.webp`) создана цифровым расширением исходного кадра. Этот кадр не представлен как документальная фотография самого Кайласа; фотография его северной стороны из Wikimedia Commons находится в разделе коры и галерее. Новый портрет Андрея Баранова (`andrey-baranov-mountains.webp`) подготовлен из его снимка `IMG_7937.JPG`.
 
 | Место | Автор | Оригинал | Лицензия | Файл на сайте |
 | --- | --- | --- | --- | --- |
-| Кайлас (галерея) | Tibetissimo | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kailash-Tibet-27-Sept-2018.jpg) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | `dist/assets/hero-kailash-desktop.webp` |
+| Кайлас (раздел коры и галерея) | Tibetissimo | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kailash-Tibet-27-Sept-2018.jpg) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | `dist/assets/hero-kailash-desktop.webp` |
 | Джокханг | Andrew and Annemarie | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Clouds_and_Roof_of_Jokhang_on_20_May_2014.jpg) | [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0) | `dist/assets/route-jokhang-roof.webp` |
 | Драк Йерпа | Maris Burbergs | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Drak_Yerpa.jpg) | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | `dist/assets/route-drak-yerpa.webp` |
 | Ташилунпо | Prof. Mortel | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Tashilhunpo_Monastery,_Shigatse,_Tibet_(60).jpg) | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) | `dist/assets/route-tashilhunpo.webp` |
