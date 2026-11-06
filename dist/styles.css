@@ -272,3 +272,13 @@
   .gallery-lightbox img{max-height:100dvh}
   .gallery-lightbox-prev,.gallery-lightbox-next{font-size:24px}
 }
+
+/* Первый экран: главная кнопка — записаться, маршрут — второй */
+.hero-actions{display:flex;flex-wrap:wrap;align-items:flex-end;gap:12px}
+.button-ghost{background:transparent;color:#fff;border:1px solid #ffffffa6}
+.button-ghost:hover{background:#ffffff1a}
+/* Подписи на первом экране — строчными, крупнее */
+.hero-caption{font-size:13px;letter-spacing:.02em}
+/* Примечания и сноски читаются как текст: не меньше 15 px */
+.program-note,.price-pending,.flight-note,.field-footnote,.sacred-insight,.practice-copy .small-print,.refund p{font-size:15px;line-height:1.55}
+@media (max-width:700px){.hero-actions{display:block}.hero-actions .button{margin-top:12px}.hero-actions .button:first-child{margin-top:30px}}
